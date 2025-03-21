@@ -1,0 +1,12 @@
+Set objWshShell = CreateObject("WScript.Shell")
+
+
+shashlyk = "      🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "     🍖🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "     🍖🍖🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "    🍖🍖🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "  🍖🍖🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "   🍖🍖🍖🍖🍖🍖🍖🍖🍖" & vbCrLf & _
+           "      👀👄"
+
+objWshShell.Popup shashlyk, 0, "чё зыришь", 64
