@@ -1,0 +1,7 @@
+@echo off
+color 0A
+:loop
+cls
+echo Добро пожаловать в gribarius, неа, ты не выйдешь
+timeout /t 1 >nul
+goto loop
