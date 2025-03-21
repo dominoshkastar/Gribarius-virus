@@ -1,0 +1,6 @@
+@echo off
+set "folderPath=C:\Users\%USERNAME%\Documents"  REM Укажите путь к папке, которую хотите открыть
+:loop
+echo Loop
+start explorer "%folderPath%"  REM Открывает проводник
+goto loop
